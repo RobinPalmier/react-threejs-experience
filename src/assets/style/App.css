@@ -11,6 +11,10 @@ html, body, #root{
   padding: 0px;
 }
 
+canvas{
+  outline: none;
+}
+
 body{
   background-color: #F1F4F8;
   position: fixed;
