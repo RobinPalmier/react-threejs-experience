@@ -8,10 +8,7 @@ import '../../assets/style/App.css';
 softShadows();
 
 const CanvasThreeJS = () => {
-    const theme = useSelector(state => state.theme);
-    
-    var currentTime = new Date();
-    var time = currentTime.getHours() + ":" + currentTime.getMinutes() + ":" + currentTime.getSeconds();
+  const theme = useSelector(state => state.theme);
   
   return (
     <>
